@@ -14,13 +14,7 @@ export default class ListItems extends Component {
               <button onClick={() => this.props.deleteTrip(trip.id)}>
                 Remove
               </button>
-              <button
-                onClick={() => {
-                  this.props.checkTrip(trip.id, trip.status);
-                }}
-              >
-                Check
-              </button>
+              <button onClick={() => {}}>Check</button>
             </li>
           ))}
         </ul>
